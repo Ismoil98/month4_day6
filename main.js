@@ -122,3 +122,83 @@
 
 
 // Array11
+// let N = +prompt('N=')
+// let K = +prompt('K=')
+// let L = +prompt('L=')
+// let s = 0
+// let arr = []
+// function rangeOutSumm(N, K, L) {
+//     for (let i=0; i<N; i++) {
+//         arr[i]=+prompt(`${i+1}-array qiymati:`)
+//     }
+//     console.log(arr);
+//     console.log(`K=${K}`);
+//     console.log(`L=${L}`);
+//     arr.splice(K,L)
+//     for (i of arr) {
+//         s+=i
+//     }
+//     console.log(`Yeg'indi: ${s}`);
+// }
+// rangeOutSumm(N, K, L);
+
+
+
+// Array12
+// let arr = [10, false, "", "Abdulaziz", null]
+// let arrTr = []
+// let arrFl =[]
+// for (let i=0; i<=arr.length-1; i++) {
+//     if (arr[i]) {
+//         arrTr.push(arr[i])
+//     } else {
+//         arrFl.push(arr[i])
+//     }
+// }
+// console.log(arr);
+// console.log(arrTr);
+// console.log(arrFl);
+
+
+
+// Array13
+// let n = +prompt('n=')
+// let arr = []
+// for (let i=0; i<n; i++) {
+//     arr[i] = +prompt(`${i}-element`)
+// }
+// console.log(arr);
+// let min = arr[0];
+// for (let i=2; i<n; i+=2) {
+//     if(min>arr[i]) {
+//         min = arr[i]
+//     }
+// }
+// console.log(min);
+
+
+
+// Array14
+// let n = +prompt('n=')
+// let arr = []
+// for (let i=0; i<n; i++) {
+//     arr[i] = +prompt(`${i}-element`)
+// }
+// console.log(arr);
+// let max = arr[1];
+// for (let i=3; i<n; i+=2) {
+//     if(max<arr[i]) {
+//         max = arr[i]
+//     }
+// }
+// console.log(max);
+
+
+
+// Array15
+let n = +prompt('n=')
+let arr = []
+for (let i=0; i<n; i++) {
+    arr[i] = +prompt(`${i}-element`)
+}
+console.log(arr);
