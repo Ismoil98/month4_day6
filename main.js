@@ -281,3 +281,34 @@
 //     }
 // }
 // console.log(arrB);
+
+
+
+// Array21
+// let n = +prompt('n=')
+// let arr = []
+// for (let i=0; i<n; i++) {
+//     arr[i] = +prompt(`${i}-element`)
+// }
+// console.log(arr);
+// let k = +prompt('k=')
+// for (let i=0; i<n; i++) {
+//     arr[i] = arr[i] * k;
+// }
+// console.log(arr);
+
+
+
+// Array22
+// let n = +prompt('n=')
+// let arr = []
+// for (let i=0; i<n; i++) {
+//     arr[i] = +prompt(`${i}-element`)
+// }
+// console.log(arr);
+// let arrA = arr.splice(n/2, n)
+// let arrB = arrA.concat(arr)
+// console.log(arrB);
+
+
+
