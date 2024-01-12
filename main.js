@@ -312,3 +312,91 @@
 
 
 
+// Array23
+// let n = +prompt('n=')
+// let arr = []
+// for (let i=0; i<n; i++) {
+//     arr[i] = +prompt(`${i}-element`)
+// }
+// console.log(arr);
+// let arrNew = arr.reverse()
+// for (let i=0; i<n; i++) {
+//     arr[i]=arrNew[i]
+// }
+// console.log(arrNew);
+
+
+
+// Array24
+// let n = +prompt('n=')
+// let arr = []
+// for (let i=0; i<n; i++) {
+//     arr[i] = +prompt(`${i}-element`)
+// }
+// console.log(arr);
+// let max = arr[0]
+// let min = arr[0]
+// for (let i=1; i<n; i++) {
+//     if (max < arr[i]) {
+//         max = arr[i]
+//     }
+//     if(min > arr[i]) {
+//         min = arr[i]
+//     }
+// }
+// let start1 = arr.indexOf(min)
+// let end1 = arr.lastIndexOf(max)
+// let x = arr.fill(0, start1, end1)
+// console.log(x);
+// console.log(arr);
+
+
+
+// Array25
+
+
+
+// Array29 
+let n = +prompt('n=')
+let arr = []
+for (let i=0; i<n; i++) {
+    arr[i] = +prompt(`${i}-element`)
+}
+console.log(arr);
+function getElementsOneTime(arr) {
+    let arrNew = []
+    let s=1;
+    for (let i=0; i<n; i++) {
+        for(let j=i+1; j<n; j++) {
+            if(arr[i]==arr[j]) {
+                s++
+            }
+        }
+        if(s == 1) {
+            arrNew.push(arr[i])
+        }
+    }
+    return arrNew
+}
+let x = getElementsOneTime(arr)
+console.log(x);
+
+// Array30 
+// let n = +prompt('n=')
+// let arr = []
+// for (let i=0; i<n; i++) {
+//     arr[i] = +prompt(`${i}-element`)
+// }
+// console.log(arr);
+// let k = +prompt('k=')
+// function searchAllElements(arr, k) {
+//     let ArrInn = []
+//     for (let i=0; i<n; i++) {
+//         if (arr[i]==k) {
+//             ArrInn.push(i)
+//         }
+//     }
+//     return ArrInn
+// }
+// let x = searchAllElements(arr, k)
+// console.log(x);
