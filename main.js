@@ -404,3 +404,6 @@ let result = displayArrayElements(90, 91, 92, 93, 94, 95, 96, 97, 98, 99)
 // }
 // let x = searchAllElements(arr, k)
 // console.log(x);
+
+
+alert("Salom USTOZ")
