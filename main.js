@@ -196,9 +196,52 @@
 
 
 // Array15
-let n = +prompt('n=')
-let arr = []
-for (let i=0; i<n; i++) {
-    arr[i] = +prompt(`${i}-element`)
-}
-console.log(arr);
+// let n = +prompt('n=')
+// let arr = []
+// for (let i=0; i<n; i++) {
+//     arr[i] = +prompt(`${i}-element`)
+// }
+// console.log(arr);
+// max = 0
+// for (let i=1; i<n; i++) {
+//     if (arr[i-1]>max && max<arr[i+1]) {
+//         max = arr[i]
+//     }
+// }
+// console.log(max);
+
+
+
+// Array16
+// let n = +prompt('n=')
+// let arr = []
+// for (let i=0; i<n; i++) {
+//     arr[i] = +prompt(`${i}-element`)
+// }
+// let R = +prompt()
+// console.log(arr);
+// for(let i=0; i<n; i++) {
+//     if((arr[i] == R-1) || (arr[i] == R+1)) {
+//         console.log(arr[i]);
+//     }
+// }
+
+
+
+// Array17 
+// let n = +prompt('n=')
+// let arr = []
+// for (let i=0; i<n; i++) {
+//     arr[i] = +prompt(`${i}-element`)
+// }
+// console.log(arr);
+// let max2 = arr[0] + arr[1]
+// for (let i=2; i<n; i++) {
+//     if ((arr[i-1]+arr[i]) > max2) {
+//         max2 = arr[i-1]+arr[i]
+//     }
+// }
+// console.log(max2);
+
+
+
