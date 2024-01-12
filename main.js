@@ -245,3 +245,39 @@
 
 
 
+// Array18
+// let n = +prompt('n=')
+// let arr = []
+// for (let i=0; i<n; i++) {
+//     arr[i] = +prompt(`${i}-element`)
+// }
+// console.log(arr);
+// for(let i=0; i<n; i++) {
+//     for(let j=i+1; j<n; j++) {
+//         if(arr[i]==arr[j]) {
+//             console.log(arr[i], `indeksi ${i}`);
+//             console.log(arr[j], `indeksi ${j}`);
+//         }
+//     }
+// }
+
+
+
+// Array19
+
+
+
+// Array20
+// let n = +prompt('n=')
+// let arrA = []
+// for (let i=0; i<n; i++) {
+//     arrA[i] = +prompt(`${i}-element`)
+// }
+// console.log(arrA);
+// let arrB = []
+// for (x of arrA) {
+//     if (x % 2 == 0) {
+//         arrB.push(x)
+//     }
+// }
+// console.log(arrB);
